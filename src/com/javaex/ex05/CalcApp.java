@@ -34,16 +34,16 @@ public class CalcApp {
     				System.out.println(">> "+add.calculate());//메소드 호출
     				break;	
     			case "-" :
-    				div.setValue(a, b); 
-    				System.out.println(">> "+div.calculate());
+    				sub.setValue(a, b); 
+    				System.out.println(">> "+sub.calculate());
     				break;	
     			case "*" :
     				mul.setValue(a, b); 
     				System.out.println(">> "+mul.calculate());
     				break;
     			case "/" :
-    				sub.setValue(a, b); 
-    				System.out.println(">> "+sub.calculate());
+    				div.setValue(a, b); 
+    				System.out.println(">> "+div.calculate());
     				break;
     			default :
     				System.out.println("알 수 없는 연산입니다.");
